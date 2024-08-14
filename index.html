@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <title>André Santos | Meu Portfólio</title>
+  </head>
+
+  <body class="">
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="brand">
+            <span>André Santos</span>
+          </div>
+
+          <button onclick="toggleSideBar()" class="open-button">
+            <span></span><span></span><span></span>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-path"><a href="#">Início</a></li>
+            <li class="navbar-path"><a href="#areas">Atuação</a></li>
+            <li class="navbar-path"><a href="#studies">Onde estudei</a></li>
+            <li class="navbar-path"><a href="#techs">Técnologias</a></li>
+            <li class="navbar-path">
+              <a href="#contact-me">Entre em contato</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="navbar-container-mobile" data-closed="true">
+          <div class="navbar-items">
+            <div class="brand">
+              <span>André Santos</span>
+            </div>
+
+            <ul class="navbar-list">
+              <li class="navbar-path"><a href="#">Início</a></li>
+              <li class="navbar-path"><a href="#areas">Atuação</a></li>
+              <li class="navbar-path"><a href="#studies">Onde estudei</a></li>
+              <li class="navbar-path"><a href="#techs">Técnologias</a></li>
+              <li class="navbar-path">
+                <a href="#contact-me">Entre em contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" id="hero-section">
+        <div class="hero-details">
+          <div class="hero-description">
+            <span class="hero-subtitle">Eu sou André Santos</span>
+            <h1 class="hero-title gradient-text">Desenvolvedor FullStack</h1>
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis veniam earum cupiditate eligendi voluptas aperiam
+              autem. Deserunt vitae similique doloribus quos, veritatis neque
+              corrupti autem commodi! Vel amet ducimus asperiores.
+            </p>
+            <div class="hero-social-media">
+              <a>
+                <span>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </span>
+              </a>
+              <a>
+                <span>
+                  <i class="fa-brands fa-instagram"></i>
+                </span>
+              </a>
+              <a>
+                <span>
+                  <i class="fa-brands fa-x-twitter"></i>
+                </span>
+              </a>
+              <a>
+                <span>
+                  <i class="fa-brands fa-github-alt"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="areas" id="areas">
+        <div class="areas-title">
+          <h2>Áreas de atuação</h2>
+        </div>
+
+        <div class="areas-cards scroll-item left">
+          <div class="card">
+            <span>O1</span>
+            <div class="card-description">
+              <h3>Desenvolvimento Front-End</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam, dolorem tenetur eius rerum voluptate unde facere quas?
+                Quod velit veniam, doloribus odio omnis repellat facilis
+                assumenda obcaecati ullam. Aspernatur, illo?
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <span>O2</span>
+            <div class="card-description">
+              <h3>Desenvolvimento Back-End</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam, dolorem tenetur eius rerum voluptate unde facere quas?
+                Quod velit veniam, doloribus odio omnis repellat facilis
+                assumenda obcaecati ullam. Aspernatur, illo?
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <span>O3</span>
+            <div class="card-description">
+              <h3>Desenvolvimento Mobile</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam, dolorem tenetur eius rerum voluptate unde facere quas?
+                Quod velit veniam, doloribus odio omnis repellat facilis
+                assumenda obcaecati ullam. Aspernatur, illo?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="studies" id="studies">
+        <div class="studies-title"><h2>Onde estudei</h2></div>
+        <div class="studies-items scroll-item right">
+          <ul class="studies-list">
+            <li class="studies-list-item">
+              <h3>Curso HTML Tunado</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+                fugit aliquid quo deserunt fuga sunt rerum cum placeat,
+                provident similique. Laborum ipsum, molestias impedit expedita
+                omnis possimus delectus natus quidem.
+              </p>
+              <span> 05/2021 - 07/2021</span>
+            </li>
+            <li class="studies-list-item">
+              <h3>Curso de JavaScript</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                doloremque dolorum eveniet id aliquid maxime laborum a, quidem
+                et eos architecto. Fugit voluptatem dolores hic sed aperiam,
+                quod nisi praesentium?
+              </p>
+              <span>2021 - 2022</span>
+            </li>
+            <li class="studies-list-item">
+              <h3>Curso I.A Furioso</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+                fugit aliquid quo deserunt fuga sunt rerum cum placeat,
+                provident similique. Laborum ipsum, molestias impedit expedita
+                omnis possimus delectus natus quidem.
+              </p>
+              <span> 12/2021 - 001/2022</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="techs" id="techs">
+        <div class="techs-title"><h2>Técnologias</h2></div>
+        <ul class="techs-list scroll-item left">
+          <li>
+            <img src="./public/html.svg" alt="Logo do HTML5" />
+          </li>
+          <li>
+            <img src="./public/css.svg" alt="Logo do CSS" />
+          </li>
+          <li>
+            <img src="./public/javascript.svg" alt="Logo do JavaScript" />
+          </li>
+          <li>
+            <img src="./public/python.svg" alt="Logo do Python" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="hire-me">
+        <a href="./public/CV.pdf" download="cv_nome_da_pessoa"
+          >Meu Curriculum</a
+        >
+      </section>
+
+      <section class="contact-me" id="contact-me">
+        <div class="contact-me-title">
+          <h2>Entre em contato comigo!</h2>
+        </div>
+
+        <form class="contact-me-form">
+          <div class="form-field">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" placeholder="Digite seu nome" />
+          </div>
+
+          <div class="form-field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" />
+          </div>
+
+          <div class="form-field">
+            <label for="assunto">Assunto</label>
+            <input
+              type="text"
+              id="assunto"
+              placeholder="Digite o assunto da mensagem"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem"></textarea>
+          </div>
+
+          <input type="submit" />
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-content">
+          <h2>André Santos</h2>
+          <ul>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </footer>
+
+      <button class="define-theme">
+        <span class="sun"><i class="fa-regular fa-sun"></i></span>
+        <span class="moon"><i class="fa-regular fa-moon"></i></span>
+      </button>
+    </main>
+
+    <script src="./scripts/main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/6776160f35.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
